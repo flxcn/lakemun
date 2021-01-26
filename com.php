@@ -1,141 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lake MUN - Committees</title>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Roboto Slab Bold',serif;
-  <!--
-  disables scroll
-  -->
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-* {box-sizing: border-box;}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/un-ga.jpg");
-  height: 50%;
-  padding-right: 5%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  width: 100vw;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-* {box-sizing: border-box;}
-
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-  padding-right: 100px;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: #1875D1;
-  color: white;
-}
-
-.h1 a {
-  white-space: nowrap;
-  font-size:50px;
-}
-
-/*
-.header-right {
-  float: right;
-}
-*/
-
-.footer {
-  left: 0;
-  bottom: 0;
-  padding-top: 5px;
-  width: 100%;
-  background-color: #1875D1;
-  color: white;
-  text-align: center;
-  font-size:20px;
-}
-
-@media screen and (max-width: 650px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .header {
-    position: static;
-  }
-}
-
-.header img {
-  float: left;
-  width: 58px;
-  height: 49px;
-  background: #;
-}
-
-.container {
-  padding-top: 20px;
-}
-
-.main {
-  padding-left: 5%;
-}
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lake MUN - Committees</title>
+    <link rel="stylesheet" href="all.css">
 </head>
 <body>
 
-<?php include 'navbar.php'; ?>
+<?php 
+$pageName = 'com';
+include 'navbar.php';
+?>
 
 <div class="hero-image">
   <div class="hero-text">
@@ -147,7 +22,7 @@ body {
 <div class="main">
   <div>
     <h1>General Assembly</h1>
-    <p>text</p>
+    <p><a href="resources/ga1.pdf">Background Guide</a></p>
   </div>
   <div>
     <h1>Security Council</h1>
@@ -159,9 +34,8 @@ body {
   </div>
 </div>
 
-<div class="footer">
-  <p style="display:inline; padding-left:100px">MUN Footer Text</p>
-</div>
+<?php include 'footer.php'; ?>
+
 
 </body>
 </html>
