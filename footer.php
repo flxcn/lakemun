@@ -1,3 +1,3 @@
 <div class="footer">
-  <p style="display:inline; padding-left:100px">MUN Footer Text</p>
+  <p style="display:inline; padding-left:100px">2021 LakeMUN Conference</p>
 </div>
