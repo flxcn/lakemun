@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lake MUN - Staff</title>
+<title>Lake MUN - Committees</title>
 <style>
 body, html {
   height: 100%;
@@ -23,7 +23,7 @@ body {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/colinmiller/Desktop/Programming/LakeMUN/un-ga.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/un-ga.jpg");
   height: 50%;
   padding-right: 5%;
   background-position: center;
@@ -105,7 +105,7 @@ body {
   font-size:20px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   .header a {
     float: none;
     display: block;
@@ -135,36 +135,27 @@ body {
 </head>
 <body>
 
-<div class="header">
-  <img href="/index.html" src="/logo.png" alt="logo" />
-  <a href="/index.html" class="logo">Lake MUN</a>
-  <div class="header-right">
-    <a  href="/index.html">About Us</a>
-    <a href="/com.html">Committees</a>
-    <a class="active" href="/staff.html">Staff</a>
-    <a href="/reg.html">Registration</a>
-  </div>
-</div>
+<?php include 'navbar.php'; ?>
 
 <div class="hero-image">
   <div class="hero-text">
-    <h1 class="a">Staff</h1>
+    <h1 class="a">Committees</h1>
     <p style="font-size:25px; word-wrap: break-word;">Description</p>
   </div>
 </div>
 
 <div class="main">
   <div>
-    <h1>Lake Travis HS</h1>
-    <ul>John Doe</ul>
-    <ul>John Doe</ul>
-    <ul>John Doe</ul>
+    <h1>General Assembly</h1>
+    <p>text</p>
   </div>
   <div>
-    <h1>Westlake HS</h1>
-    <ul>John Doe</ul>
-    <ul>John Doe</ul>
-    <ul>John Doe</ul>
+    <h1>Security Council</h1>
+    <p>text</p>
+  </div>
+  <div>
+    <h1>Crisis</h1>
+    <p>text</p>
   </div>
 </div>
 

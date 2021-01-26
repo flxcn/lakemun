@@ -2,9 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="favicon.png" type="image/x-icon"/>
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
-<title>Lake MUN - Registration</title>
+<title>Lake MUN - Staff</title>
 <style>
 body, html {
   height: 100%;
@@ -22,6 +20,28 @@ body, html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/colinmiller/Desktop/Programming/LakeMUN/un-ga.jpg");
+  height: 50%;
+  padding-right: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100vw;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 * {box-sizing: border-box;}
@@ -85,7 +105,7 @@ body {
   font-size:20px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   .header a {
     float: none;
     display: block;
@@ -108,30 +128,45 @@ body {
   padding-top: 20px;
 }
 
-.contact {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 200%;
+.main {
+  padding-left: 5%;
 }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img href="/index.html" src="/logo.png" alt="logo" />
-  <a href="/index.html" class="logo">Lake MUN</a>
+  <img href="index.html" src="logo.png" alt="logo" />
+  <a href="index.html" class="logo">Lake MUN</a>
   <div class="header-right">
-    <a href="/index.html">About Us</a>
-    <a href="/com.html">Committees</a>
-    <a href="/staff.html">Staff</a>
-    <a class="active" href="/reg.html">Registration</a>
+    <a  href="index.html">About Us</a>
+    <a href="com.html">Committees</a>
+    <a class="active" href="staff.html">Staff</a>
+    <a href="reg.html">Registration</a>
   </div>
 </div>
 
-<div class="contact">
-  <p>Contact us at email@gmail.com</p>
-  <p>Add embeded Google Form Registration thing here</p>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 class="a">Staff</h1>
+    <p style="font-size:25px; word-wrap: break-word;">Description</p>
+  </div>
 </div>
 
+<div class="main">
+  <div>
+    <h1>Lake Travis HS</h1>
+    <ul>John Doe</ul>
+    <ul>John Doe</ul>
+    <ul>John Doe</ul>
+  </div>
+  <div>
+    <h1>Westlake HS</h1>
+    <ul>John Doe</ul>
+    <ul>John Doe</ul>
+    <ul>John Doe</ul>
+  </div>
+</div>
 
 <div class="footer">
   <p style="display:inline; padding-left:100px">MUN Footer Text</p>
