@@ -14,15 +14,10 @@
 </head>
 <body>
 
-<div class="header">
-  <img href="about.html" src="logo.png" alt="logo" />
-  <a href="about.html" class="logo">Lake MUN</a>
-  <div class="header-right">
-    <a href="about.html">About Us</a>
-    <a class="active" href="com.html">Committees</a>
-    <a href="reg.html">Registration</a>
-  </div>
-</div>
+<?php 
+$pageName = 'index';
+include 'navbar.php';
+?>
 
 <div class="hero-image">
   <div class="hero-text">
@@ -32,10 +27,6 @@
 </div>
 
 <?php include 'footer.php'; ?>
-
-<br>
-<br>
-<a style="color:white; font-size: 5%" href="http://bigboymeatmarket.com">Hayden Dunson</a>
 
 </body>
 </html>
